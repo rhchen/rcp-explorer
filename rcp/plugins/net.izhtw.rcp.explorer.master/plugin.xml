@@ -7,12 +7,25 @@
       <product
             application="org.eclipse.ui.ide.workbench"
             description="rcp explorer"
-            name="explorer">
+            name="workbench">
          <property
                name="appName"
-               value="explorer">
+               value="workbench">
          </property>
       </product>
+   </extension>
+   <extension
+         id="net.izhtw.rcp.explorer.master.Application"
+         name="rcp explorer application"
+         point="org.eclipse.core.runtime.applications">
+      <application
+            cardinality="singleton-global"
+            thread="main"
+            visible="true">
+         <run
+               class="net.izhtw.rcp.explorer.master.Application">
+         </run>
+      </application>
    </extension>
 
 </plugin>
