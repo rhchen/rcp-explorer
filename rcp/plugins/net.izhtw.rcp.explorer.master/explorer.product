@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="explorer" uid="explorer" id="net.izhtw.rcp.explorer.master.explorer" application="net.izhtw.rcp.explorer.master.Application" useFeatures="true" includeLaunchers="true">
+<product name="explorer" uid="explorer" id="net.izhtw.rcp.explorer.master.explorer" application="org.eclipse.ui.ide.workbench" useFeatures="true" includeLaunchers="true">
 
    <configIni use="default">
    </configIni>

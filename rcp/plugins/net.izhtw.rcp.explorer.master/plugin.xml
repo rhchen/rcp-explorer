@@ -7,10 +7,14 @@
       <product
             application="org.eclipse.ui.ide.workbench"
             description="rcp explorer"
-            name="workbench">
+            name="explorer">
          <property
                name="appName"
-               value="workbench">
+               value="explorer">
+         </property>
+         <property
+               name="preferenceCustomization"
+               value="plugin_customization.ini">
          </property>
       </product>
    </extension>
