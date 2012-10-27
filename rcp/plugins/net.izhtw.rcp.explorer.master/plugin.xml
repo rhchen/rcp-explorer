@@ -5,7 +5,7 @@
          id="explorer"
          point="org.eclipse.core.runtime.products">
       <product
-            application="org.eclipse.ui.ide.workbench"
+            application="net.izhtw.rcp.explorer.master.Application"
             description="rcp explorer"
             name="explorer">
          <property
